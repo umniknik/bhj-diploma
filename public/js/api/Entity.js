@@ -2,12 +2,22 @@ class Entity {
   static URL = '';
 
   static list(data, callback) {
-    createRequest({
-      url: this.URL,
-      method: 'GET',
-      data: data,
-      callback: callback
-    })
+    if (this.URL === '/transaction') {
+      createRequest({
+        url: this.URL + '?account_id=' + data,
+        method: 'GET',
+        data: data,
+        callback: callback
+      })
+    } else {
+      createRequest({
+        url: this.URL + '?' + data,
+        //  url: this.URL,
+        method: 'GET',
+        data: data,
+        callback: callback
+      })
+    }
   }
 
   /**

@@ -8,10 +8,10 @@ const createRequest = (options = {}) => {
     xhr.responseType = 'json';
     try {
         xhr.open(options.method, options.url);
-        xhr.send(options.data);    
+        xhr.send(options.data);
     }
     catch (e) {
-       console.log(e);
+        console.log(e);
     }
 
     xhr.onload = () => {

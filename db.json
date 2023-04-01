@@ -23,6 +23,72 @@
       "email": "demdddddddddddddo@demo",
       "password": "demo",
       "id": "cb22r0134lfp1y9jq"
+    },
+    {
+      "name": "eeee",
+      "email": "olegeeee@demo.ru",
+      "password": "demo",
+      "id": "cb22r0a5olfr791rb"
+    },
+    {
+      "name": "eeeeeeweq",
+      "email": "oleeeweqweg@demo.ru",
+      "password": "demo",
+      "id": "cb22r0ahclfr7b7wn"
+    },
+    {
+      "name": "weqwrwrwer",
+      "email": "olewrerwreeg@demo.ru",
+      "password": "demo",
+      "id": "cb22r0cmslfr7qwnp"
+    },
+    {
+      "name": "sdasd",
+      "email": "osadsdaleg@demo.ru",
+      "password": "demo",
+      "id": "cb22r08aclfr7t84n"
+    },
+    {
+      "name": "weqweq",
+      "email": "oleweqweqweqg@demo.ru",
+      "password": "demo",
+      "id": "cb22r0b7slfr7tsk1"
+    },
+    {
+      "name": "eeeeeeee",
+      "email": "olegeeeee@demo.ru",
+      "password": "demo",
+      "id": "cb22r03sklfr7yw0s"
+    },
+    {
+      "name": "wwwwwwwwwwww",
+      "email": "olewwwwwwwwg@demo.ru",
+      "password": "demo",
+      "id": "cb22r014clfr7zhhm"
+    },
+    {
+      "name": "ddddd",
+      "email": "oledddddg@demo.ru",
+      "password": "demo",
+      "id": "cb22r0aoolfr88j67"
+    },
+    {
+      "name": "Реко",
+      "email": "demrrrrrrro@demo",
+      "password": "demo",
+      "id": "cb22r09zklfrrupqi"
+    },
+    {
+      "name": "oleg",
+      "email": "oleg@demo.ru",
+      "password": "demo",
+      "id": "cb22r07g4lfs6qqh1"
+    },
+    {
+      "name": "Иван Иванович",
+      "email": "i@i.ru",
+      "password": "iiii",
+      "id": "cb22r02j4lfxuvc83"
     }
   ],
   "accounts": [
@@ -40,6 +106,26 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "dddd",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "id": "cb22r0a3wlfsc2m1i"
+    },
+    {
+      "name": "Второй",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "id": "cb22r05ywlfwg1tos"
+    },
+    {
+      "name": "777",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "id": "cb22r04y4lfxtdolb"
+    },
+    {
+      "name": "Счет ивана 1",
+      "user_id": "cb22r02j4lfxuvc83",
+      "id": "cb22r0as4lfxuvpqn"
     }
   ],
   "transactions": [
@@ -177,6 +263,87 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "cb22r0al0lfsm9gxy",
+      "type": "income",
+      "name": "ПОдработка 1",
+      "sum": 101,
+      "account_id": "cb22r0a3wlfsc2m1i",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "created_at": "2023-03-28T18:53:47.397Z"
+    },
+    {
+      "id": "cb22r02o8lfwkb8vz",
+      "type": "expense",
+      "name": "Потратил 333",
+      "sum": 333,
+      "account_id": "cb22r0a3wlfsc2m1i",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "created_at": "2023-03-31T13:10:15.742Z"
+    },
+    {
+      "id": "cb22r06zglfwl7gb0",
+      "type": "income",
+      "name": "gggggg",
+      "sum": 100,
+      "account_id": "cb22r05ywlfwg1tos",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "created_at": "2023-03-31T13:35:18.347Z"
+    },
+    {
+      "id": "cb22r06l0lfxt7eue",
+      "type": "income",
+      "name": "eeeee",
+      "sum": 10000,
+      "account_id": "cb22r0a3wlfsc2m1i",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "created_at": "2023-04-01T10:06:59.558Z"
+    },
+    {
+      "id": "cb22r03vclfxtck9f",
+      "type": "income",
+      "name": "fffff",
+      "sum": 12222,
+      "account_id": "cb22r0a3wlfsc2m1i",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "created_at": "2023-04-01T10:10:59.858Z"
+    },
+    {
+      "id": "cb22r05d8lfxtcua8",
+      "type": "income",
+      "name": "22222",
+      "sum": 22222222,
+      "account_id": "cb22r0a3wlfsc2m1i",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "created_at": "2023-04-01T10:11:12.847Z"
+    },
+    {
+      "id": "cb22r0314lfxtd476",
+      "type": "income",
+      "name": "5555",
+      "sum": 555,
+      "account_id": "cb22r0a3wlfsc2m1i",
+      "user_id": "cb22r07g4lfs6qqh1",
+      "created_at": "2023-04-01T10:11:25.697Z"
+    },
+    {
+      "id": "cb22r04gwlfxuw2o4",
+      "type": "income",
+      "name": "Доход 1",
+      "sum": 1000,
+      "account_id": "cb22r0as4lfxuvpqn",
+      "user_id": "cb22r02j4lfxuvc83",
+      "created_at": "2023-04-01T10:54:09.795Z"
+    },
+    {
+      "id": "cb22r08yclfxuwc89",
+      "type": "expense",
+      "name": "Расход 2",
+      "sum": 500,
+      "account_id": "cb22r0as4lfxuvpqn",
+      "user_id": "cb22r02j4lfxuvc83",
+      "created_at": "2023-04-01T10:54:22.184Z"
     }
   ]
 }
